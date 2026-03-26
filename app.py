@@ -97,6 +97,18 @@ def _format_scaled_price(x: float, decimals: int = 0) -> str:
 
 
 def main() -> None:
+    # 모든 텍스트를 볼드체로 보이도록(가독성 향상) 앱 전역 스타일을 적용합니다.
+    st.markdown(
+        """
+        <style>
+        [data-testid="stApp"] * {
+            font-weight: 700 !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
     st.title("📈 포스코 홀딩스 주가 데이터 대시보드")
     st.caption("yfinance에서 불러온 OHLC/거래량 데이터를 통화와 스케일까지 고려해 시각화합니다.")
 
