@@ -1,0 +1,9 @@
+[theme]
+# 필터·슬라이더·멀티셀렉트 등 위젯 강조색
+primaryColor = "#1E6FD9"
+# 사이드바(필터 영역) 배경 — 은은한 파란 톤
+secondaryBackgroundColor = "#EAF2FB"
+backgroundColor = "#FFFFFF"
+textColor = "#1A1A2E"
+# h1(st.title) 기본 2.75rem 대비 1pt 축소, h2~h6는 Streamlit 기본값 유지
+headingFontSizes = ["calc(2.75rem - 1pt)", "2.25rem", "1.75rem", "1.5rem", "1.25rem", "1rem"]
