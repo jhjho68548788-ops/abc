@@ -4,3 +4,11 @@ plotly>=5.18.0
 seaborn>=0.13.0
 scikit-learn>=1.3.0
 yfinance
+langchain
+langchain_classic
+langchain_openai
+langchain_core
+langchain_community
+pypdf
+faiss_cpu
+langchain_chroma

@@ -1,8 +1,13 @@
+# 환경 변수
+.env
+.env.*
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .venv/
 venv/
+rag2/
 .streamlit/secrets.toml
-
